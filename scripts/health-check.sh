@@ -12,3 +12,5 @@ echo
 echo "[PORTS: 22/80/443]"
 sudo ss -tulnp | egrep ":22|:80|:443" || true
 echo "===================================="
+
+echo "[TOP SPACE IN /var]"
